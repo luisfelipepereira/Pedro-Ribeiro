@@ -144,6 +144,9 @@
       border: 1px solid var(--line);
       border-radius: 10px;
       background: var(--surface);
+      color: #5f503f;
+      appearance: none;
+      -webkit-appearance: none;
       align-items: center;
       justify-content: center;
       gap: 5px;
@@ -994,6 +997,10 @@
     body[data-theme="dark"] .contact-list a,
     body[data-theme="dark"] label {
       color: #d9ccb9;
+    }
+
+    body[data-theme="dark"] .nav-toggle {
+      color: #f1e7d6;
     }
 
     body[data-theme="dark"] .card,
